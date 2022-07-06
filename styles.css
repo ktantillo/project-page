@@ -1,0 +1,77 @@
+<!-- CSS only -->
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: pink;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+body {
+    margin: auto;
+  }
+  
+  .packman {
+    /* TODO: Define the grid area here */
+    grid-area: packman;
+  }
+  
+  .eyes {
+  
+    grid-area: eyes;
+    /* TODO: Define the grid area here */
+  }
+  
+  .header {
+  
+    grid-area: header;
+    /* TODO: Define the grid area here */
+  }
+  
+  .bus {
+  
+    grid-area: bus;
+    /* TODO: Define the grid area here */
+  }
+  
+
+  
+  .wrapper {
+    display: grid;
+    grid-gap: 10px;
+    background-color: rgb(250, 233, 239);
+    color: #444;
+  
+    /* TODO: Define the grid-template-columns and grid-template-areas values here. */
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas:
+      'header header header'
+      'packman eyes bus'
+      'packman eyes  bus';
+  }
+  
+  .box {
+    background-color: #b97e8f;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+  }
+  
+  .header,
+  .footer {
+    background-color: #999;
+  }
+  background-color:rgb(250, 233, 239);
